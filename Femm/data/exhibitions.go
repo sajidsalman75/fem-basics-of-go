@@ -42,3 +42,7 @@ var list = []Exhibition{
 		CurrentlyOpened: false,
 	},
 }
+
+func Add(exhibition Exhibition) {
+	list = append(list, exhibition)
+}
